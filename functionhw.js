@@ -40,3 +40,11 @@ console.log(friends.listingFriends());
  for(let keyFriend in friends){
     console.log (`Your ${keyFriend} friend is:` , friends[keyFriend]);
 }
+
+let i= 0;
+    for ( i= 0; i < nestedPerson.favorites.foods.length; i++ ) {
+        if (i==0) {
+            console.log (nestedPerson.name.first, 'Fav Food is:' );
+        }
+        console.log ( i+1, nestedPerson.favorites.foods [i]);
+    };
