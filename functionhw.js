@@ -15,3 +15,12 @@ function toFarenhiet(c) {
  }
 
 console.log (toFarenhiet(37));
+
+function fff() {
+    if (condition) {
+    fff=3
+    console.log ("fff is equal to 3")
+} else{
+    console.log ("fff is not equal to 3")
+}
+}
