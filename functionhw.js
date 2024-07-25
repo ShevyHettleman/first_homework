@@ -24,3 +24,19 @@ function fff() {
     console.log ("fff is not equal to 3")
 }
 }
+
+let friends = {
+    best: "Joan",
+    secondBest: "Mari",
+    thirdBest: "Elaine",
+    listingFriends(){
+        for (let friend in friends) {
+            console.log(`friend at ${friend}:`, friends [friend]);
+        }
+    }
+}
+console.log(friends.listingFriends());
+
+ for(let keyFriend in friends){
+    console.log (`Your ${keyFriend} friend is:` , friends[keyFriend]);
+}
